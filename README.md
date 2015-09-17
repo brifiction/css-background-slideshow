@@ -42,7 +42,7 @@ Experiment with the different CSS attributes (along with its cross-browser attri
 <li><code>@keyframes</code> (http://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)</li>
 </ul>
 
-Note: <code><button-set></code> element is not used. Enable by uncomment whole element block.
+Note: <code>button-set</code> element is not used. Enable by uncomment whole element block.
 
 ### License
 
