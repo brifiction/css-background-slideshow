@@ -35,11 +35,12 @@ JQuery is not the main highlight of this example, it's implemented to create a s
 The example is straight-forward, as it utilizes the use of CSS3 selectors and special animation attributes in the v1.css and v2.css files.
 
 Experiment with the different CSS attributes (along with its cross-browser attributes), such as:
-
-<code>animation</code>
-<code>animation-delay</code>
-<code>animation-timing-function</code>
-<code>@keyframes</code> (http://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)
+<ul>
+<li><code>animation</code></li>
+<li><code>animation-delay</code></li>
+<li><code>animation-timing-function</code></li>
+<li><code>@keyframes</code> (http://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)</li>
+</ul>
 
 ### License
 
