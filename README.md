@@ -32,6 +32,8 @@ Modernizr Documentation: https://modernizr.com/docs
 
 JQuery is not the main highlight of this example, it's implemented to create a switch between two different types of slideshows by choosing CSS files (v1.css and v2.css).
 
+IMPORTANT: High-resolution and large file size images may have trouble loading for each transition. The result of each delay may vary for each browser.
+
 The example is straight-forward, as it utilizes the use of CSS3 selectors and special animation attributes in the v1.css and v2.css files.
 
 Experiment with the different CSS attributes (along with its cross-browser attributes), such as:
