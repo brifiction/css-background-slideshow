@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <title>Modernizr CSS3 with jQuery</title>
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+    <link id="design" rel="stylesheet" type="text/css" href="css/v1.css" />
+
+  </head>
+  <body id="page">
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        /* SWITCH EFFECT BY SELECTING CSS FILES */
+        $('.style1').on("click", function() {
+          $('link[id="design"]').attr({
+            href: "css/v1.css"
+          });
+        });
+        $('.style2').on("click", function() {
+          $('link[id="design"]').attr({
+            href: "css/v2.css"
+          });
+        });
+      });
+    </script>
+
+    <div class="cps">
+      <ul class="modernizr-slideshow">
+        <li><span>Image 01</span><div><h4>1</h4></div></li>
+        <li><span>Image 02</span><div><h4>2</h4></div></li>
+        <li><span>Image 03</span><div><h4>3</h4></div></li>
+        <li><span>Image 04</span><div><h4>4</h4></div></li>
+        <li><span>Image 05</span><div><h4>5</h4></div></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="top">
+        <a href="#" target="_blank">JQuery + MODERNIZR Background Slideshow</a>
+        <a href="https://jquery.com/download/" target="_blank">Download JQuery</a>
+        <a href="https://modernizr.com/download" target="_blank">Download Modernizr Build</a>
+        <span class="right">
+          <a href="#" class="style1">Slide Fade Animation</a>
+          <a href="#" class="style2">Twist Degree Animation</a>
+        </span>
+        <div class="clr"></div>
+      </div>
+      <!--
+      <button-set>
+        <p class="modernizr-demos">
+          <a href="#" class="style1">Demo 1</a>
+          <a href="#" class="style2">Demo 2</a>
+          <a href="#" class="style3">Demo 3</a>
+          <a href="#" class="style4">Demo 4</a>
+        </p>
+      </button-set>
+      -->
+    </div>
+  </body>
+</html>
