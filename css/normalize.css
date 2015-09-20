@@ -89,7 +89,7 @@ a{
   padding: 0px 0px 5px 0px;
 }
 .container > button-set h1 span{
-
+  /* NO STYLE SET */
 }
 .container > button-set h2, p.info{
   font-size: 16px;
@@ -129,6 +129,8 @@ a{
   float: none;
   display: inline;
 }
+
+/* MODERNIZR DEMO SLIDESHOW */
 
 p.modernizr-demos{
   display: block;
