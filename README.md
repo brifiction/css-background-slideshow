@@ -4,8 +4,6 @@ jquery and modernizr background slideshow example
 ### Description
 This repository contains an example of CSS3 and Modernizr with an optional JQuery style switch. The CSS3 demo demonstrates on how to have a fullscreen background slideshow with uploaded image files.
 
-https://ci.appveyor.com/api/projects/status/1k62pjgmlgnoxiai?svg=true
-
 ### Installation
 
 If you need an apache server, I use Apache Tomcat for Java development. The download links are below:
